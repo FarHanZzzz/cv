@@ -20,6 +20,8 @@ export default function Projects() {
         return "/agri_supply.png";
       case "dengue-early-warning":
         return "/dengue_warning.png";
+      case "earthquake-platform":
+        return "/earthquake_platform.png";
       default:
         return "/pedi_growth.png";
     }

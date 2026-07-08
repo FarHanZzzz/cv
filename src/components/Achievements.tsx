@@ -2,24 +2,25 @@
 
 import React from "react";
 import { motion } from "framer-motion";
-import { Trophy, Star, Sparkles, Medal } from "lucide-react";
+import { Trophy, Star, Sparkles, Medal, Award, GraduationCap, Rocket, Code2 } from "lucide-react";
 import portfolioData from "../data/portfolio.json";
 
 export default function Achievements() {
   const achievements = portfolioData.achievements;
 
-  // Custom icon mapper
+  // Custom icon mapper with more variety
   const getIcon = (index: number) => {
-    switch (index) {
-      case 0:
-        return <Trophy className="w-6 h-6 text-amber-500" />;
-      case 1:
-        return <Medal className="w-6 h-6 text-accent-purple" />;
-      case 2:
-        return <Sparkles className="w-6 h-6 text-primary-blue" />;
-      default:
-        return <Star className="w-6 h-6 text-emerald-500" />;
-    }
+    const icons = [
+      <Trophy key="trophy" className="w-6 h-6 text-amber-500" />,
+      <Sparkles key="sparkles" className="w-6 h-6 text-sky-400" />,
+      <Medal key="medal" className="w-6 h-6 text-rose-500" />,
+      <Rocket key="rocket" className="w-6 h-6 text-accent-purple" />,
+      <Award key="award" className="w-6 h-6 text-emerald-500" />,
+      <GraduationCap key="grad" className="w-6 h-6 text-orange-500" />,
+      <Star key="star" className="w-6 h-6 text-primary-blue" />,
+      <Code2 key="code" className="w-6 h-6 text-teal-400" />,
+    ];
+    return icons[index % icons.length];
   };
 
   return (
@@ -36,15 +37,15 @@ export default function Achievements() {
           <div className="h-1 w-12 bg-gradient-to-r from-primary-blue to-accent-purple rounded-full mt-3" />
         </div>
 
-        {/* Achievements Cards Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        {/* Achievements Cards Grid — 2-col on md, 3-col on lg, 4-col on xl */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
           {achievements.map((item, index) => (
             <motion.div
-              key={item.title}
+              key={`${item.title}-${index}`}
               initial={{ opacity: 0, scale: 0.95 }}
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true, margin: "-100px" }}
-              transition={{ duration: 0.5, delay: index * 0.1 }}
+              transition={{ duration: 0.5, delay: index * 0.08 }}
               className="gradient-border-card p-6 flex flex-col h-full hover:scale-[1.02] hover:-translate-y-1 transition-all duration-300"
             >
               {/* Highlight Icon Circle */}
@@ -53,11 +54,11 @@ export default function Achievements() {
               </div>
 
               {/* Text content */}
-              <h3 className="text-lg font-bold tracking-tight text-foreground line-clamp-2">
+              <h3 className="text-base font-bold tracking-tight text-foreground line-clamp-2">
                 {item.title}
               </h3>
               
-              <p className="text-xs font-semibold text-primary-blue mt-1 bg-glass-bg border border-glass-border/30 px-2 py-0.5 rounded w-max">
+              <p className="text-xs font-semibold text-primary-blue mt-1 bg-glass-bg border border-glass-border/30 px-2 py-0.5 rounded w-max max-w-full truncate">
                 {item.subtitle}
               </p>
 

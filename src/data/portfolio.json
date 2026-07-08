@@ -3,7 +3,7 @@
     "name": "Farhan Sadeque",
     "title": "Computer Science & Engineering Student",
     "subtitle": "Building intelligent software solutions, AI-powered applications, and scalable systems while leading technical communities and innovative projects.",
-    "bio": "I am a passionate Computer Science & Engineering student, full-stack developer, and AI enthusiast at Independent University, Bangladesh. I specialize in building intelligent software solutions, computer vision applications, and scalable backend systems. As an Executive of the IUB Debate Club, I combine technical engineering skills with strategic leadership and public relations experience to solve real-world problems.",
+    "bio": "Hey! I am Farhan Sadeque, a CSC senior at IUB with an eager mind on data, code, and data analysis — everything that piques my interest. I take a plunge into software development and love to materialize ideas into actual projects — full-stack web applications, smart inventory management, and dashboards. I enjoy analytics, time hacks, and other ways to simplify everyday life by means of technology. I also coordinate events, artistic ventures, and work with teams where brainstorming and coffee are synonymous. I am a builder, thinker, and life-long learner who is always ready to take on a challenge — and perhaps have some fun in the process.",
     "stats": [
       {
         "label": "Projects Completed",
@@ -12,7 +12,7 @@
       },
       {
         "label": "Leadership Roles",
-        "value": "2",
+        "value": "6",
         "suffix": ""
       },
       {
@@ -27,10 +27,10 @@
       }
     ],
     "socials": {
-      "github": "https://github.com/farhansadeque",
-      "linkedin": "https://linkedin.com/in/farhansadeque",
+      "github": "https://github.com/FarHanZzzz",
+      "linkedin": "https://www.linkedin.com/in/farhan-sadeque-264a67285",
       "facebook": "https://facebook.com/farhansadeque",
-      "email": "mailto:farhan.sadeque@gmail.com"
+      "email": "mailto:farhansad84@gmail.com"
     },
     "resumes": {
       "pdf": "/resumes/farhan_sadeque_resume.pdf",
@@ -42,8 +42,15 @@
       "institution": "Independent University, Bangladesh (IUB)",
       "degree": "Bachelor of Science",
       "major": "Computer Science & Engineering",
-      "duration": "2022 - Present",
-      "details": "Focusing on Software Engineering, Artificial Intelligence, and Computer Vision. Actively participating in national hackathons and leading student-driven technology initiatives."
+      "duration": "2024 - 2027",
+      "details": "Focusing on Software Engineering, Artificial Intelligence, Data Analysis, and Computer Vision. Actively participating in national hackathons, leading student-driven technology initiatives, and representing IUB in inter-university competitions."
+    },
+    {
+      "institution": "Dhaka City College",
+      "degree": "Higher Secondary Certificate (HSC)",
+      "major": "Science",
+      "duration": "2021 - 2023",
+      "details": "Completed Higher Secondary education in the Science group, building a strong foundation in mathematics, physics, and analytical thinking."
     }
   ],
   "skills": {
@@ -52,7 +59,7 @@
     "backend": ["FastAPI", "PHP"],
     "database": ["MySQL", "PostgreSQL", "Supabase"],
     "aiMl": ["OpenCV", "MediaPipe", "Machine Learning", "Computer Vision"],
-    "tools": ["Git", "GitHub", "Figma", "Power BI", "VS Code", "IntelliJ IDEA"]
+    "tools": ["Git", "GitHub", "Figma", "Power BI", "VS Code", "IntelliJ IDEA", "Excel"]
   },
   "projects": [
     {
@@ -68,22 +75,23 @@
         "Server-side video queue processing and deep biomechanical visual analytics"
       ],
       "technologies": ["Next.js", "FastAPI", "MediaPipe", "OpenCV", "Supabase", "OpenRouter AI"],
-      "github": "https://github.com/farhansadeque/pedi-growth",
+      "github": "https://github.com/FarHanZzzz/pedi-growth",
       "demo": "#"
     },
     {
       "id": "nirapotta",
       "title": "Nirapotta",
       "subtitle": "Disaster Communication OS",
-      "description": "A robust, lightweight disaster communication and coordinating operating system built to sustain emergency networking when traditional cellular infrastructure fails.",
+      "description": "A disaster operating system built on a self-healing mesh architecture that enables communication during disasters when conventional telecommunication infrastructure becomes unavailable. Secured Runner-Up position at NSU Cybernauts 2026.",
       "features": [
+        "Self-healing mesh communication architecture for disaster scenarios",
         "Decentralized mesh communication protocol utilizing local device networking",
         "Emergency point-to-point and broadcast offline messaging capabilities",
         "Real-time coordinate sharing and rescue request dispatch pipeline",
         "Centralized coordinator control center for aid agencies and volunteer groups"
       ],
       "technologies": ["React", "FastAPI", "PostgreSQL", "Tailwind CSS", "WebSockets"],
-      "github": "https://github.com/farhansadeque/nirapotta",
+      "github": "https://github.com/FarHanZzzz/nirapotta",
       "demo": "#"
     },
     {
@@ -98,7 +106,7 @@
         "Data-driven operational analytics powered by Power BI integrations"
       ],
       "technologies": ["Next.js", "PHP", "MySQL", "Tailwind CSS", "Power BI", "IoT Edge API"],
-      "github": "https://github.com/farhansadeque/agri-supply-chain",
+      "github": "https://github.com/FarHanZzzz/agri-supply-chain",
       "demo": "#"
     },
     {
@@ -113,43 +121,155 @@
         "Voluntary coordination dispatch system for local vector-eradication initiatives"
       ],
       "technologies": ["Python", "FastAPI", "Next.js", "PostgreSQL", "OpenStreetMap API"],
-      "github": "https://github.com/farhansadeque/dengue-warning",
+      "github": "https://github.com/FarHanZzzz/dengue-warning",
+      "demo": "#"
+    },
+    {
+      "id": "earthquake-platform",
+      "title": "IoT-Based Earthquake Response Platform",
+      "subtitle": "Centralized Recovery System for Bangladesh",
+      "description": "An IoT-based centralized earthquake response and recovery platform for Bangladesh, developed under the theme 'Innovative Earthquake Resilience: Smart Response and Recovery Mechanisms'. Won Champion in Poster Presentation at Disaster Management Exercise 4.0 (BUP).",
+      "features": [
+        "IoT sensor integration for real-time seismic activity monitoring",
+        "Centralized earthquake response coordination dashboard",
+        "Smart recovery mechanisms and resource allocation system",
+        "Post-disaster assessment and recovery tracking tools"
+      ],
+      "technologies": ["IoT", "Python", "React", "PostgreSQL", "Sensor APIs"],
+      "github": "#",
       "demo": "#"
     }
   ],
   "experience": [
     {
-      "role": "Executive, Public Relations",
+      "role": "Campus Ambassador",
+      "company": "Global Tech Assure",
+      "duration": "2026 - Present",
+      "responsibilities": [
+        "Empowering students with industry-relevant, practical skills in software testing.",
+        "Bridging the gap between academic learning and real-world tech careers.",
+        "Engaging with the student community and promoting meaningful learning opportunities.",
+        "Developing leadership and communication skills through ambassador activities."
+      ]
+    },
+    {
+      "role": "Admin & HR",
+      "company": "Youth School for Social Entrepreneurs (YSSE)",
+      "duration": "Dec 2025 - Present",
+      "responsibilities": [
+        "Marketing YSSE activities through road shows, recruitment drives, and campus events to increase visibility and participation.",
+        "Organizing and hosting career-specific workshops: CV Writing & Interview Hacks, Career Path of Data Analysts, and Career Live Talks.",
+        "Led CMP 7.0 sessions on leadership, teamwork, networking, communication, and public speaking.",
+        "Managed recruitment process and outreach for virtual interns, maintaining active communication with participants."
+      ]
+    },
+    {
+      "role": "Sub Executive",
       "company": "IUB Debate Club",
-      "duration": "2024 - Present",
+      "duration": "Nov 2025 - Present",
       "responsibilities": [
         "Organizing and coordinating large-scale national and club-level debate championships.",
         "Managing institutional public communications, media partnerships, and press releases.",
         "Directing volunteer groups, orchestrating marketing runs, and driving campus engagement.",
         "Securing corporate sponsorship and leading liaison activities between the club and university administration."
       ]
+    },
+    {
+      "role": "Founding Director of Public Relations",
+      "company": "IUB Programming Club",
+      "duration": "May 2025 - Present",
+      "responsibilities": [
+        "Founded and built the Public Relations division from the ground up.",
+        "Managing external communications and partnerships with industry and academic organizations.",
+        "Driving awareness campaigns for programming events, workshops, and hackathons.",
+        "Building strategic partnerships to expand club visibility and member engagement."
+      ]
+    },
+    {
+      "role": "Head Host",
+      "company": "We Speak English Here (WSEH)",
+      "duration": "Jun 2021 - Aug 2023",
+      "responsibilities": [
+        "Head Host and Moderator facilitating a favorable learning experience at WSEH.",
+        "Promoted interesting and participatory fluency conversations about English.",
+        "Provided real-time corrections in grammar, pronunciation, and communication.",
+        "Structured online activities: topic-based talks, question-answer sessions, and word games."
+      ]
+    },
+    {
+      "role": "Head of Marketing",
+      "company": "That One Book Club",
+      "duration": "Mar 2023 - Jun 2023",
+      "responsibilities": [
+        "Designed and implemented strategic marketing initiatives to gain publicity and reach more people.",
+        "Conducted effective promotional campaigns that increased the scope of book reviews and audience interactions.",
+        "Leveraged social media tools and content strategies to form an active community of readers.",
+        "Examined engagement analytics to refine strategies and ensure messaging reached the target audience."
+      ]
+    },
+    {
+      "role": "Host",
+      "company": "All Star",
+      "duration": "Jan 2021 - Jun 2022",
+      "responsibilities": [
+        "Facilitated discussions and conducted live interviews on various influential topics.",
+        "Controlled instantaneous two-way communication between speakers and viewers.",
+        "Managed and produced live events including technical setups, scheduling, and troubleshooting.",
+        "Improved participant involvement with live polls, Q&A sessions, and interactive games."
+      ]
+    },
+    {
+      "role": "Social Media Manager",
+      "company": "The Magic Shop",
+      "duration": "Feb 2020 - Aug 2021",
+      "responsibilities": [
+        "Curated social media content to promote open and positive mental health dialogue.",
+        "Designed and implemented content strategy with educational facts, motivational content, and interactive communication.",
+        "Organized live sessions and virtual events with mental health professionals.",
+        "Helped earn The Magic Shop a reputation as a trusted source of community mental health guidance."
+      ]
     }
   ],
   "achievements": [
     {
-      "title": "Runner-Up",
-      "subtitle": "NSU Cybernauts 2026 – Idea to Impact Competition",
-      "description": "Awarded second place at the national level for developing an innovative technology solution solving local socio-economic challenges, evaluated by industry leaders."
+      "title": "Runner-Up — NSU Cybernauts 2026",
+      "subtitle": "National Inter-University Idea to Impact Competition",
+      "description": "Secured the Runner-Up position at NSU Cybernauts 2026 held on 17 June 2026 at North South University. Presented 'Nirapotta' — a disaster operating system built on a self-healing mesh architecture for disaster communication."
+    },
+    {
+      "title": "Selected — Harvard HSIL Hackathon",
+      "subtitle": "Among 22 Teams Selected Globally",
+      "description": "Selected among 22 teams globally for the prestigious Harvard HSIL Hackathon, showcasing innovative problem-solving and technical capabilities on an international stage."
+    },
+    {
+      "title": "2nd Place — AI Innovation Hackathon",
+      "subtitle": "Powered by SimpliSolve",
+      "description": "Secured second place in the AI Innovation Hackathon powered by SimpliSolve. Learned model training, data processing, and worked with tools and concepts completely new to the team."
+    },
+    {
+      "title": "Semi-Finalists — FutureMakers",
+      "subtitle": "Powered by Grameenphone",
+      "description": "Semi-finalists in FutureMakers powered by Grameenphone. Developed an AI-backed solution from the ground up, creating software designed to make a tangible impact in people's lives."
+    },
+    {
+      "title": "Champion — Poster Presentation",
+      "subtitle": "Disaster Management Exercise 4.0 (BUP)",
+      "description": "IUB's Team Bhumikompo became Champion in the Poster Presentation segment at Disaster Management Exercise 4.0, organized by BUP Disaster Management Forum on September 25, 2025. Developed 'IoT-Based Centralized Earthquake Response and Recovery Platform for Bangladesh'."
+    },
+    {
+      "title": "Data Analyst Bootcamp Graduate",
+      "subtitle": "Data Solution-360 (Batch-2518)",
+      "description": "Completed the Data Analyst Job Ready Boot-Camp with Data Solution-360, mastering SQL, Python, Machine Learning, Power BI, Excel, Probability, and Statistics for turning raw data into actionable insights."
     },
     {
       "title": "PR & Event Leadership",
-      "subtitle": "IUB Debate Club Executive",
-      "description": "Successfully managed PR campaigns and event logistics for multiple high-profile debate tournaments with over 500+ participants nationwide."
+      "subtitle": "IUB Debate Club & Programming Club",
+      "description": "Successfully managed PR campaigns and event logistics for multiple high-profile debate tournaments and programming events with 500+ participants nationwide."
     },
     {
       "title": "Full-Stack Project Development",
       "subtitle": "Core Technical Projects",
-      "description": "Designed and deployed complex applications combining web technologies, mobile components, and AI pipelines (Pedi-Growth, Nirapotta)."
-    },
-    {
-      "title": "Academic Technical Research",
-      "subtitle": "Computer Vision & AI Applications",
-      "description": "Exploring novel deep-learning based pose estimation techniques to optimize medical and orthopedic diagnostics in resource-constrained environments."
+      "description": "Designed and deployed complex applications combining web technologies, mobile components, and AI pipelines including Pedi-Growth, Nirapotta, and the Earthquake Response Platform."
     }
   ]
 }
