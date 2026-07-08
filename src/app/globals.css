@@ -1,35 +1,37 @@
 @import "tailwindcss";
 
 :root {
-  --background: #fafafa;
-  --foreground: #09090b;
-  --card: rgba(244, 244, 245, 0.7);
-  --card-foreground: #09090b;
-  --card-border: rgba(228, 228, 231, 0.8);
+  color-scheme: light;
+  --background: oklch(0.96 0.005 240);
+  --foreground: oklch(0.15 0.01 240);
+  --card: rgba(255, 255, 255, 0.7);
+  --card-foreground: oklch(0.15 0.01 240);
+  --card-border: oklch(0.90 0.01 240 / 0.8);
   --primary: #2563eb;
   --accent: #7c3aed;
   --primary-rgb: 37, 99, 235;
   --accent-rgb: 124, 58, 237;
-  --text-muted: #71717a;
-  --grid-color: rgba(9, 9, 11, 0.05);
-  --glass-bg: rgba(255, 255, 255, 0.7);
-  --glass-border: rgba(228, 228, 231, 0.6);
+  --text-muted: oklch(0.45 0.01 240);
+  --grid-color: rgba(9, 9, 11, 0.04);
+  --glass-bg: oklch(0.96 0.005 240 / 0.7);
+  --glass-border: oklch(0.90 0.01 240 / 0.6);
 }
 
 :root.dark {
-  --background: #09090b;
-  --foreground: #f4f4f5;
-  --card: rgba(18, 18, 24, 0.7);
-  --card-foreground: #f4f4f5;
-  --card-border: rgba(39, 39, 42, 0.8);
+  color-scheme: dark;
+  --background: oklch(0.13 0.008 240);
+  --foreground: oklch(0.90 0.008 240);
+  --card: oklch(0.17 0.01 240 / 0.7);
+  --card-foreground: oklch(0.90 0.008 240);
+  --card-border: oklch(0.25 0.01 240 / 0.8);
   --primary: #3b82f6;
   --accent: #a855f7;
   --primary-rgb: 59, 130, 246;
   --accent-rgb: 168, 85, 247;
-  --text-muted: #a1a1aa;
-  --grid-color: rgba(244, 244, 245, 0.03);
-  --glass-bg: rgba(10, 10, 12, 0.7);
-  --glass-border: rgba(39, 39, 42, 0.6);
+  --text-muted: oklch(0.65 0.01 240);
+  --grid-color: rgba(244, 244, 245, 0.02);
+  --glass-bg: oklch(0.13 0.008 240 / 0.7);
+  --glass-border: oklch(0.25 0.01 240 / 0.6);
 }
 
 @theme {
