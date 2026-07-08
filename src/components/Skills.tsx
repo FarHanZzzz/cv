@@ -23,14 +23,31 @@ export default function Skills() {
   // Helper to get all skills for "all" or specific list
   const getFilteredSkills = () => {
     if (activeCategory === "all") {
-      return [
-        ...skillsData.languages.map((s) => ({ name: s, category: "Languages" })),
-        ...skillsData.frontend.map((s) => ({ name: s, category: "Frontend" })),
-        ...skillsData.backend.map((s) => ({ name: s, category: "Backend" })),
-        ...skillsData.database.map((s) => ({ name: s, category: "Databases" })),
-        ...skillsData.aiMl.map((s) => ({ name: s, category: "AI & ML" })),
-        ...skillsData.tools.map((s) => ({ name: s, category: "Tools" }))
-      ];
+      const allSkills: { name: string; category: string }[] = [];
+      const seen = new Set<string>();
+
+      const addSkills = (list: string[], cat: string) => {
+        list.forEach((s) => {
+          if (!seen.has(s)) {
+            seen.add(s);
+            allSkills.push({ name: s, category: cat });
+          } else {
+            const existing = allSkills.find((item) => item.name === s);
+            if (existing && !existing.category.includes(cat)) {
+              existing.category = `${existing.category} & ${cat}`;
+            }
+          }
+        });
+      };
+
+      addSkills(skillsData.languages, "Languages");
+      addSkills(skillsData.frontend, "Frontend");
+      addSkills(skillsData.backend, "Backend");
+      addSkills(skillsData.database, "Databases");
+      addSkills(skillsData.aiMl, "AI & ML");
+      addSkills(skillsData.tools, "Tools");
+
+      return allSkills;
     }
     
     const categoryLabels: Record<SkillCategory, string> = {
