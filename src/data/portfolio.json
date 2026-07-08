@@ -1,0 +1,166 @@
+{
+  "personal": {
+    "name": "Farhan Sadeque",
+    "title": "Computer Science & Engineering Student",
+    "subtitle": "Building intelligent software solutions, AI-powered applications, and scalable systems while leading technical communities and innovative projects.",
+    "bio": "I am a passionate Computer Science & Engineering student, full-stack developer, and AI enthusiast at Independent University, Bangladesh. I specialize in building intelligent software solutions, computer vision applications, and scalable backend systems. As a co-founder of Reverie Inc. and an Executive of the IUB Debate Club, I combine technical engineering skills with strategic leadership and public relations experience to solve real-world problems.",
+    "stats": [
+      {
+        "label": "Projects Completed",
+        "value": "12",
+        "suffix": "+"
+      },
+      {
+        "label": "Leadership Roles",
+        "value": "3",
+        "suffix": ""
+      },
+      {
+        "label": "Programming Languages",
+        "value": "5",
+        "suffix": ""
+      },
+      {
+        "label": "Technologies Used",
+        "value": "15",
+        "suffix": "+"
+      }
+    ],
+    "socials": {
+      "github": "https://github.com/farhansadeque",
+      "linkedin": "https://linkedin.com/in/farhansadeque",
+      "facebook": "https://facebook.com/farhansadeque",
+      "email": "mailto:farhan.sadeque@gmail.com"
+    },
+    "resumes": {
+      "pdf": "/resumes/farhan_sadeque_resume.pdf",
+      "docx": "/resumes/farhan_sadeque_resume.docx"
+    }
+  },
+  "education": [
+    {
+      "institution": "Independent University, Bangladesh (IUB)",
+      "degree": "Bachelor of Science",
+      "major": "Computer Science & Engineering",
+      "duration": "2022 - Present",
+      "details": "Focusing on Software Engineering, Artificial Intelligence, and Computer Vision. Actively participating in national hackathons and leading student-driven technology initiatives."
+    }
+  ],
+  "skills": {
+    "languages": ["Java", "Python", "PHP", "JavaScript", "SQL"],
+    "frontend": ["HTML", "CSS", "Tailwind CSS", "React", "Next.js"],
+    "backend": ["FastAPI", "PHP"],
+    "database": ["MySQL", "PostgreSQL", "Supabase"],
+    "aiMl": ["OpenCV", "MediaPipe", "Machine Learning", "Computer Vision"],
+    "tools": ["Git", "GitHub", "Figma", "Power BI", "VS Code", "IntelliJ IDEA"]
+  },
+  "projects": [
+    {
+      "id": "pedi-growth",
+      "title": "Pedi-Growth",
+      "subtitle": "AI Gait Analysis Platform",
+      "description": "An AI-powered pediatric gait analysis platform designed for healthcare professionals and researchers to screen and evaluate developmental gait abnormalities in children.",
+      "features": [
+        "Real-time video skeleton pose estimation using advanced computer vision models",
+        "Intelligent early screening for common developmental delays and motor anomalies",
+        "Automated medical report generation with custom annotations",
+        "Interactive clinical dashboard for longitudinal patient tracking and analytics",
+        "Server-side video queue processing and deep biomechanical visual analytics"
+      ],
+      "technologies": ["Next.js", "FastAPI", "MediaPipe", "OpenCV", "Supabase", "OpenRouter AI"],
+      "github": "https://github.com/farhansadeque/pedi-growth",
+      "demo": "#"
+    },
+    {
+      "id": "nirapotta",
+      "title": "Nirapotta",
+      "subtitle": "Disaster Communication OS",
+      "description": "A robust, lightweight disaster communication and coordinating operating system built to sustain emergency networking when traditional cellular infrastructure fails.",
+      "features": [
+        "Decentralized mesh communication protocol utilizing local device networking",
+        "Emergency point-to-point and broadcast offline messaging capabilities",
+        "Real-time coordinate sharing and rescue request dispatch pipeline",
+        "Centralized coordinator control center for aid agencies and volunteer groups"
+      ],
+      "technologies": ["React", "FastAPI", "PostgreSQL", "Tailwind CSS", "WebSockets"],
+      "github": "https://github.com/farhansadeque/nirapotta",
+      "demo": "#"
+    },
+    {
+      "id": "agri-supply-chain",
+      "title": "Agricultural Supply Chain System",
+      "subtitle": "IoT-Enabled Tracking & Monitoring",
+      "description": "An enterprise agricultural supply chain management platform integrating IoT sensors to secure grain storage, reduce food waste, and automate shipment logistics.",
+      "features": [
+        "Real-time vehicle shipment tracking and live telemetry updates",
+        "Environmental GPS and temperature/humidity IoT sensor dashboards",
+        "Smart inventory alerts, automated storage logs, and shelf-life forecasting",
+        "Data-driven operational analytics powered by Power BI integrations"
+      ],
+      "technologies": ["Next.js", "PHP", "MySQL", "Tailwind CSS", "Power BI", "IoT Edge API"],
+      "github": "https://github.com/farhansadeque/agri-supply-chain",
+      "demo": "#"
+    },
+    {
+      "id": "dengue-early-warning",
+      "title": "Dengue Early Warning Platform",
+      "subtitle": "Predictive Disease Visualization",
+      "description": "A public health dashboard designed to predict outbreak vectors, manage volunteer response forces, and visualize dengue contagion density dynamically.",
+      "features": [
+        "Machine learning models predicting outbreak probabilities based on regional weather",
+        "Citizen-driven incident reporting pipeline with visual mapping coordinates",
+        "Live density mapping using interactive geospatial maps and SVG visualizers",
+        "Voluntary coordination dispatch system for local vector-eradication initiatives"
+      ],
+      "technologies": ["Python", "FastAPI", "Next.js", "PostgreSQL", "OpenStreetMap API"],
+      "github": "https://github.com/farhansadeque/dengue-warning",
+      "demo": "#"
+    }
+  ],
+  "experience": [
+    {
+      "role": "Executive, Public Relations",
+      "company": "IUB Debate Club",
+      "duration": "2024 - Present",
+      "responsibilities": [
+        "Organizing and coordinating large-scale national and club-level debate championships.",
+        "Managing institutional public communications, media partnerships, and press releases.",
+        "Directing volunteer groups, orchestrating marketing runs, and driving campus engagement.",
+        "Securing corporate sponsorship and leading liaison activities between the club and university administration."
+      ]
+    },
+    {
+      "role": "Co-founder",
+      "company": "Reverie Inc.",
+      "duration": "2023 - Present",
+      "responsibilities": [
+        "Leading client-facing technical discussions and business strategy planning.",
+        "Overseeing the software development lifecycle for diverse custom application products.",
+        "Designing branding elements, marketing graphics, and high-fidelity Figma user flows.",
+        "Orchestrating digital outreach campaigns and maintaining active client client relationship pipelines."
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "title": "Runner-Up",
+      "subtitle": "NSU Cybernauts 2026 – Idea to Impact Competition",
+      "description": "Awarded second place at the national level for developing an innovative technology solution solving local socio-economic challenges, evaluated by industry leaders."
+    },
+    {
+      "title": "PR & Event Leadership",
+      "subtitle": "IUB Debate Club Executive",
+      "description": "Successfully managed PR campaigns and event logistics for multiple high-profile debate tournaments with over 500+ participants nationwide."
+    },
+    {
+      "title": "Full-Stack Project Development",
+      "subtitle": "Core Technical Projects",
+      "description": "Designed and deployed complex applications combining web technologies, mobile components, and AI pipelines (Pedi-Growth, Nirapotta)."
+    },
+    {
+      "title": "Academic Technical Research",
+      "subtitle": "Computer Vision & AI Applications",
+      "description": "Exploring novel deep-learning based pose estimation techniques to optimize medical and orthopedic diagnostics in resource-constrained environments."
+    }
+  ]
+}
