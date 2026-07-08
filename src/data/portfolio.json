@@ -3,7 +3,7 @@
     "name": "Farhan Sadeque",
     "title": "Computer Science & Engineering Student",
     "subtitle": "Building intelligent software solutions, AI-powered applications, and scalable systems while leading technical communities and innovative projects.",
-    "bio": "I am a passionate Computer Science & Engineering student, full-stack developer, and AI enthusiast at Independent University, Bangladesh. I specialize in building intelligent software solutions, computer vision applications, and scalable backend systems. As a co-founder of Reverie Inc. and an Executive of the IUB Debate Club, I combine technical engineering skills with strategic leadership and public relations experience to solve real-world problems.",
+    "bio": "I am a passionate Computer Science & Engineering student, full-stack developer, and AI enthusiast at Independent University, Bangladesh. I specialize in building intelligent software solutions, computer vision applications, and scalable backend systems. As an Executive of the IUB Debate Club, I combine technical engineering skills with strategic leadership and public relations experience to solve real-world problems.",
     "stats": [
       {
         "label": "Projects Completed",
@@ -12,7 +12,7 @@
       },
       {
         "label": "Leadership Roles",
-        "value": "3",
+        "value": "2",
         "suffix": ""
       },
       {
@@ -127,17 +127,6 @@
         "Managing institutional public communications, media partnerships, and press releases.",
         "Directing volunteer groups, orchestrating marketing runs, and driving campus engagement.",
         "Securing corporate sponsorship and leading liaison activities between the club and university administration."
-      ]
-    },
-    {
-      "role": "Co-founder",
-      "company": "Reverie Inc.",
-      "duration": "2023 - Present",
-      "responsibilities": [
-        "Leading client-facing technical discussions and business strategy planning.",
-        "Overseeing the software development lifecycle for diverse custom application products.",
-        "Designing branding elements, marketing graphics, and high-fidelity Figma user flows.",
-        "Orchestrating digital outreach campaigns and maintaining active client client relationship pipelines."
       ]
     }
   ],
